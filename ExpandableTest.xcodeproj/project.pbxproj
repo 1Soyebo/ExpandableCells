@@ -68,16 +68,14 @@
 		2B2D43B2289C014E0003080E /* ExpandableTest */ = {
 			isa = PBXGroup;
 			children = (
+				2B2D43DE28A15BCC0003080E /* SupportingFiles */,
+				2B2D43DD28A15BC30003080E /* Resources */,
+				2B2D43DC28A15B960003080E /* View Controller */,
+				2B2D43DB28A15B870003080E /* Storyboard */,
+				2B2D43DA28A15B6E0003080E /* App Delegate */,
 				2B2D43D128A14A040003080E /* View */,
 				2B2D43CA28A144940003080E /* Extensions */,
 				2B2D43C7289C06BF0003080E /* Model */,
-				2B2D43B3289C014E0003080E /* AppDelegate.swift */,
-				2B2D43B5289C014E0003080E /* SceneDelegate.swift */,
-				2B2D43B7289C014E0003080E /* ViewController.swift */,
-				2B2D43B9289C014E0003080E /* Main.storyboard */,
-				2B2D43BC289C01500003080E /* Assets.xcassets */,
-				2B2D43BE289C01500003080E /* LaunchScreen.storyboard */,
-				2B2D43C1289C01500003080E /* Info.plist */,
 			);
 			path = ExpandableTest;
 			sourceTree = "<group>";
@@ -123,6 +121,48 @@
 				2B2D43D828A1521B0003080E /* ExpandHeaderView.xib */,
 			);
 			path = Header;
+			sourceTree = "<group>";
+		};
+		2B2D43DA28A15B6E0003080E /* App Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				2B2D43B3289C014E0003080E /* AppDelegate.swift */,
+				2B2D43B5289C014E0003080E /* SceneDelegate.swift */,
+			);
+			path = "App Delegate";
+			sourceTree = "<group>";
+		};
+		2B2D43DB28A15B870003080E /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				2B2D43B9289C014E0003080E /* Main.storyboard */,
+				2B2D43BE289C01500003080E /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		2B2D43DC28A15B960003080E /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2B2D43B7289C014E0003080E /* ViewController.swift */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
+		2B2D43DD28A15BC30003080E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2B2D43BC289C01500003080E /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2B2D43DE28A15BCC0003080E /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				2B2D43C1289C01500003080E /* Info.plist */,
+			);
+			path = SupportingFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -353,7 +393,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5M9L529UU2;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ExpandableTest/Info.plist;
+				INFOPLIST_FILE = ExpandableTest/SupportingFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -381,7 +421,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5M9L529UU2;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ExpandableTest/Info.plist;
+				INFOPLIST_FILE = ExpandableTest/SupportingFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
